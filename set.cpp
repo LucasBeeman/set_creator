@@ -27,7 +27,7 @@ void Set<T>::printSet(std::set<T> const &outputSet) {
 
 
 //a + overload operator that finds the union of 2 sets
-//it makes 2 iterators and iterates throuhg both data sets, the set type removes
+//it makes 2 iterators and iterates through both data sets, the set type removes
 //any dupes automatically and automatically sorts it.
 template<typename T>
 std::set<T> Set<T>::operator+(Set<T> s2){
@@ -43,7 +43,7 @@ std::set<T> Set<T>::operator+(Set<T> s2){
   return newSet;
 }
 // a - overload that returns the difference between 2 sets.
-// it gets 2 iterators and goes throuhg an embedded loop
+// it gets 2 iterators and goes through an embedded loop
 // it inserts set1 from the return set, but will delete the
 // variable if there are any intesecting variable between the 2
 template<typename T>
